@@ -309,18 +309,10 @@ class DotNetCodeAnalyzer:
         self.save_to_notepad(vulnerabilities, improvements, build_suggestions, recommendations, all_recommendations)
 
 
-# if __name__ == "__main__":
-#     solution_path = r"D:\Projects\POC\UpgradeAgent\AWS_CICD_book-app-api"  # Provide the path to the .NET solution
-#     api_key = "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"  # Replace with your OpenAI API key
-
-#     analyzer = DotNetCodeAnalyzer(solution_path, api_key)
-#     analyzer.analyze_and_upgrade()
-
-
 
 if __name__ == "__main__":
     root_folder_path = r"D:\Projects\POC\UpgradeAgent"
-    api_key = "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"  # Replace with your OpenAI API key
+    api_key = "sk-proj-PAbf_udxAhF7ITgLBX5qc4jj_4o4mOQSrJTeDxsNu-Wcb0x889ZM8fSJoa-RpAkLV-3tOqa_sTT3BlbkFJusXBvbfPj-jro3eZ8FoKjc9yMkXY8e11o2Lnl51fJbpL9-4tFwzvwSLBctYG6c9Q09sOT-HIo"  # Replace with your OpenAI API key
 
     processed_projects = set()
 
